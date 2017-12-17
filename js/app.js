@@ -31,7 +31,7 @@ function confersTimeDifference() {
     if(currentMonth == christmasMonth && currentDay == christmasDay) {
         $("#main .container .countdown").style.display = "none";
         $("#main .container h2").innerHTML = "Hoje é Natal!";
-        $("#main .container h3").innerHTML = "Que seu dia seja incrível ";
+        $("#main .container h3").innerHTML = "Que seu dia seja incrível";
     }
     else if(currentMonth == christmasMonth && currentDay > christmasDay) {
         $("#main .container .month").innerHTML = 11;
