@@ -11,6 +11,10 @@ var date,
 //events
 window.onload = function() {
     updateData();
+    
+    //only for init the library AOS(Animate On Scroll)
+    //https://michalsnik.github.io/aos/
+    AOS.init();
 }
 
 //functions
