@@ -14,9 +14,7 @@ window.onload = function() {
 
     //only for init the library AOS(Animate On Scroll)
     //https://michalsnik.github.io/aos/
-    AOS.init({
-        disable: 'mobile'
-      });
+    AOS.init();
 }
 
 //functions
