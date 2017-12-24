@@ -32,7 +32,7 @@ function getCurrentDate() {
 }
 
 function confersTimeDifference() {
-    if(currentMonth == christmasMonth && currentDay == christmasDay) {
+    if(currentMonth == christmasMonth && currentDay-1 == christmasDay) {
         $("#main .container .countdown").style.display = "none";
         $("#main .container h2").innerHTML = "Hoje é Natal!";
         $("#main .container h3").innerHTML = "Que seu dia seja incrível";
